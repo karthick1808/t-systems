@@ -1,5 +1,6 @@
 base:
-  'karthick':
+  'app01':
     - dev
     - prod
     - test
+    - require
