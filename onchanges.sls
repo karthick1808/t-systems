@@ -9,7 +9,7 @@ download_dockerfile:
 
 # Build Docker image
 build_docker_image:
-  cmd.run:
-    - name: docker build -t myapp:latest /srv/salt/docker
+  service.running:
+    - enable: True
     - onchanges:
-      - file: download_dockerfile
+      - download_dockerfile
