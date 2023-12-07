@@ -1,6 +1,5 @@
 base:
-  'app01':
-    - dev
-    - prod
-    - test
-    - require
+  'os:Ubuntu':
+    - match: grain
+    - mysql
+

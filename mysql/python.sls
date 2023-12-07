@@ -1,3 +1,12 @@
 mysql_python_install:
   pkg.installed:
-    - name: python3-mysqldb
+    - pkgs:
+      - python3-mysqldb
+      - python3-dev
+      - default-libmysqlclient-dev
+      - build-essential
+      - pkg-config
+install_mysqldb:
+  pip.installed:
+    - names:
+      - mysqlclient
