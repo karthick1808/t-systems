@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        p, ul {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Checklist Documentation</h1>
+
+<h2>HTML5 Client</h2>
+<p>
+    The Guacamole web client is entirely HTML5-based, allowing users to access remote desktops directly from a web browser without the need for additional plugins.
+</p>
+
+<h2>Session Recording</h2>
+<p>
+    Guacamole provides session recording capabilities, allowing administrators to record user sessions. This feature enables review and auditing of user activity for security and compliance purposes.
+</p>
+
+<h2>Integration with External Services</h2>
+<p>
+    Guacamole seamlessly integrates with various external services, including SSH jump hosts. This feature ensures secure access to internal networks by acting as a gateway for remote connections.
+</p>
+
+<h2>Clipboard Disable</h2>
+<p>
+    Guacamole offers the ability to disable clipboard functionality. This feature enhances security by restricting the copy-paste functionality during remote sessions.
+</p>
+
+<h2>Outbound Internet Block</h2>
+<p>
+    To enhance security, outbound internet access for Guacamole can be restricted. This ensures that the Guacamole server does not have direct internet connectivity, minimizing potential attack vectors.
+</p>
+
+<h2>Data Encryption</h2>
+<p>
+    Guacamole ensures the security of data both at rest and in transit. SSL encryption is utilized to secure data in flight, while local encryption mechanisms are implemented to protect data at rest.
+</p>
+
+<h2>Cloudflare Tunnel</h2>
+<p>
+    Cloudflare Tunnel is a tunneling software employed to secure and encrypt application traffic. It enables the hiding of web server IP addresses, blocks direct attacks, and ensures secure delivery of applications.
+</p>
+
+<h2>Disable Root Access</h2>
+<p>
+    Root access to the Guacamole server is disabled to enhance security. Users are provided with limited and controlled access to minimize security risks.
+</p>
+<h2>Disable GitHub Access</h2>
+<p>
+    The deployment of Apache Guacamole is done without the need for direct access to GitHub. This ensures that the system operates independently, and there is no reliance on external GitHub resources during installation, configuration, or day-to-day usage.
+</p>
+
+</body>
+</html>
